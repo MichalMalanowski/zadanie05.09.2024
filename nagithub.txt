@@ -1,0 +1,25 @@
+PS C:\Users\MalanowskiMichał\Documents\zadanie> git init
+Initial commit
+
+Untracked files:
+        nagithub.txt
+
+PS C:\Users\MalanowskiMichał\Documents\zadanie> git remote add origin https://github.com/MichalMalanowski/zadanie05.09.2024.git
+PS C:\Users\MalanowskiMichał\Documents\zadanie> git add nagithub.txt
+PS C:\Users\MalanowskiMichał\Documents\zadanie> git commit -m "zadanie"
+[master (root-commit) fa3bf6e] zadanie
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 nagithub.txt
+PS C:\Users\MalanowskiMichał\Documents\zadanie> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/MichalMalanowski/zadanie05.09.2024.git'
+PS C:\Users\MalanowskiMichał\Documents\zadanie> git branch -M main
+PS C:\Users\MalanowskiMichał\Documents\zadanie> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MichalMalanowski/zadanie05.09.2024.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\MalanowskiMichał\Documents\zadanie>
